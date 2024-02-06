@@ -1,11 +1,13 @@
     body {
       font-family: Arial, sans-serif;
 
-        margin: 0; /* Убираем отступы по умолчанию */
-        padding: 0; /* Убираем внутренние отступы по умолчанию */
+      margin: 0; /* Убираем отступы по умолчанию */
+      padding: 0; /* Убираем внутренние отступы по умолчанию */
 
-          color: white; /* Цвет текста */
-          text-shadow: 2px 0 2px #000, 0 2px 2px #000, -2px 0 2px #000, 0 -2px 2px #000;
+      color: white; /* Цвет текста */
+      text-shadow: 2px 0 2px #000, 0 2px 2px #000, -2px 0 2px #000, 0 -2px 2px #000;
+
+	background-color: black;/*цвет фона позади всего: фоновой картинки, элементов и затемнения*/
     }
 
 
@@ -22,7 +24,7 @@
   height: 100%;
   background-image: url('images/cow_drinking.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: top left;/* Размещает изображение так, что оно начинается с самого левого верхнего края */
   z-index: -1;
   opacity: 1; /* Прозрачность фонового изображения */
 }
